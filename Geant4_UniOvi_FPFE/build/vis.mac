@@ -45,9 +45,9 @@
 # Set the primary generator (i.e. the Particle Gun) properties:
 # ==============================================================================  
 # set the particle energy to match the experimental one: 
-/gun/energy 12.0 GeV
+/gun/energy 100 MeV
 # set the particle type to match the experimental one: electron
-/gun/particle proton
+/gun/particle e-
 
 # ------------------------------------------------------------------------------
 # report progress of the simulation at each 100 000 -th event

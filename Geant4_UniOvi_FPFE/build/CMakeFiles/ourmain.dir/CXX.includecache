@@ -1248,6 +1248,20 @@ G4ParticleDefinition.icc
 
 /nfs/fanae/geant4_releases/geant4.10.05-install/include/Geant4/G4ParticleDefinition.icc
 
+/nfs/fanae/geant4_releases/geant4.10.05-install/include/Geant4/G4ParticleGun.hh
+globals.hh
+/nfs/fanae/geant4_releases/geant4.10.05-install/include/Geant4/globals.hh
+G4VPrimaryGenerator.hh
+/nfs/fanae/geant4_releases/geant4.10.05-install/include/Geant4/G4VPrimaryGenerator.hh
+G4ThreeVector.hh
+/nfs/fanae/geant4_releases/geant4.10.05-install/include/Geant4/G4ThreeVector.hh
+G4ParticleDefinition.hh
+/nfs/fanae/geant4_releases/geant4.10.05-install/include/Geant4/G4ParticleDefinition.hh
+G4PrimaryVertex.hh
+/nfs/fanae/geant4_releases/geant4.10.05-install/include/Geant4/G4PrimaryVertex.hh
+G4ParticleMomentum.hh
+/nfs/fanae/geant4_releases/geant4.10.05-install/include/Geant4/G4ParticleMomentum.hh
+
 /nfs/fanae/geant4_releases/geant4.10.05-install/include/Geant4/G4ParticleMomentum.hh
 G4ThreeVector.hh
 /nfs/fanae/geant4_releases/geant4.10.05-install/include/Geant4/G4ThreeVector.hh
@@ -2292,6 +2306,10 @@ G4VPhysicalVolume.icc
 
 /nfs/fanae/geant4_releases/geant4.10.05-install/include/Geant4/G4VPhysicalVolume.icc
 
+/nfs/fanae/geant4_releases/geant4.10.05-install/include/Geant4/G4VPrimaryGenerator.hh
+G4ThreeVector.hh
+/nfs/fanae/geant4_releases/geant4.10.05-install/include/Geant4/G4ThreeVector.hh
+
 /nfs/fanae/geant4_releases/geant4.10.05-install/include/Geant4/G4VProcess.hh
 globals.hh
 /nfs/fanae/geant4_releases/geant4.10.05-install/include/Geant4/globals.hh
@@ -3293,6 +3311,18 @@ vector
 /nfs/fanae/geant4_releases/geant4.10.05-install/include/Geant4/trkdefs.hh
 G4Types.hh
 /nfs/fanae/geant4_releases/geant4.10.05-install/include/Geant4/G4Types.hh
+
+/nfs/fanae/user/vichuca93/g4work/G4_VHCA_FPFE_UniOvi/Geant4_UniOvi_FPFE/src/YourPrimaryGeneratorAction.cc
+YourPrimaryGeneratorAction.hh
+/nfs/fanae/user/vichuca93/g4work/G4_VHCA_FPFE_UniOvi/Geant4_UniOvi_FPFE/src/YourPrimaryGeneratorAction.hh
+YourDetectorConstruction.hh
+/nfs/fanae/user/vichuca93/g4work/G4_VHCA_FPFE_UniOvi/Geant4_UniOvi_FPFE/src/YourDetectorConstruction.hh
+G4Event.hh
+/nfs/fanae/user/vichuca93/g4work/G4_VHCA_FPFE_UniOvi/Geant4_UniOvi_FPFE/src/G4Event.hh
+G4ParticleGun.hh
+/nfs/fanae/user/vichuca93/g4work/G4_VHCA_FPFE_UniOvi/Geant4_UniOvi_FPFE/src/G4ParticleGun.hh
+G4ParticleTable.hh
+/nfs/fanae/user/vichuca93/g4work/G4_VHCA_FPFE_UniOvi/Geant4_UniOvi_FPFE/src/G4ParticleTable.hh
 
 /nfs/fanae/user/vichuca93/g4work/G4_VHCA_FPFE_UniOvi/Geant4_UniOvi_FPFE/src/YourRunAction.cc
 YourRunAction.hh
