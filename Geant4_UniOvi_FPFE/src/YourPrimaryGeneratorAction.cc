@@ -27,12 +27,14 @@ void YourPrimaryGeneratorAction::SetDefaultKinematic() {
 	fParticleGun = new G4ParticleGun(1);
 // Para electornes
 	//G4ParticleDefinition* part = G4Electron::Definition();
-	G4ParticleDefinition* part = G4ParticleTable::GetParticleTable()->FindParticle("e-");
+	//G4ParticleDefinition* part = G4ParticleTable::GetParticleTable()->FindParticle("e-");
+	G4ParticleDefinition* part = G4ParticleTable::GetParticleTable()->FindParticle("proton");
 	fParticleGun->SetParticleDefinition(part);
 // La direccion de la particula
 	fParticleGun->SetParticleMomentumDirection(G4ThreeVector(1.0, 0.0, 0.0));
 // Energia cinetica
-	fParticleGun->SetParticleEnergy(30.0*CLHEP::MeV);
+	//fParticleGun->SetParticleEnergy(30.0*CLHEP::MeV);
+	fParticleGun->SetParticleEnergy(12.0*CLHEP::GeV);
 	UpdatePosition();
 }
 
